@@ -126,7 +126,7 @@ export default class Navbar extends React.Component {
                     onMouseLeave={this.navbarCloseDropdown}
                   >
                     <a className="navbar-link">
-                      Grandes Clientes
+                      Empresas e Industrias
                     </a>
                     <div className="navbar-dropdown is-boxed">
                       <Link className="dropdown-item" to="/tarifas">Tarifas</Link>
@@ -173,7 +173,14 @@ export default class Navbar extends React.Component {
                       <div className="dropdown-content">
                         <div className="dropdown-item">
                           <p className="subtitle has-text-link-dark has-text-centered">
-                            Ingresa al nuevo sistemas CorpoelecDigital.
+                           Realiza tus gestiones a travez de nuestro nuevo sistema <StaticImage
+                          src="../images/corpoelec-digital-logo.png"
+                          alt="CORPOELEC"
+                          placeholder="blurred"
+                          width={200}
+                          quality={95}
+                          layout="fixed"
+                        />.
                           </p>
                         </div>
                         <hr className="dropdown-divider"/>
